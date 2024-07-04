@@ -10,7 +10,7 @@ describe('MedicalService', () => {
     service = TestBed.inject(MedicalService);
   });
 
-  it('Hello', () => {
+  it('Hell', () => {
     expect(service).toBeTruthy();
   });
 });
