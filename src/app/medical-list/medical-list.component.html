@@ -1,0 +1,116 @@
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="https://assets.devfolio.co/hackathons/22206f9e416444d2a4e3f06b9160c3dc/projects/6eaae9b9701e4226b287ee1658b5d195/40718964-c458-4a7c-a0e2-2157bde9762c.png" height="50px" width="150px" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Lab Test</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Medicine</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Wellness</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Health Corner</a>
+              </li>
+          </ul>
+          <button class="btn btn-primary ms-lg-3">Login</button>
+      </div>
+  </div>
+</nav>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://mercury.akamaized.net/i/feb9aed7a4dbf0ce0810c07c852ac6d2_263859_0.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://mercury.akamaized.net/i/14dbe0acfc7ac40872b8a7eb7161149e_236339_0.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://mercury.akamaized.net/i/14d7051747719e750e87e510836e2e8d_232035_0.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+  <br/>
+<h2 class="product-list-title">You ask we deliver!</h2>
+<br/>
+<div class="product-container" >
+  @for (product of details; track details) {
+        <div class="card" style="width: 18rem;">
+            <img  [src]="product.img" alt="Product Image" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">{{product.name}}</h5>
+              <p class="card-text">{{product.desc}}</p>
+              <button type="submit"  (click)="prodDesc(product.id)" class="btn btn-primary">BUY</button>
+            </div>
+          </div>  
+        }
+</div>
+
+<footer>
+        <div class="container">
+            <div class="column">
+                <a href="#" class="logo">
+                    <img src="https://assets.devfolio.co/hackathons/22206f9e416444d2a4e3f06b9160c3dc/projects/6eaae9b9701e4226b287ee1658b5d195/40718964-c458-4a7c-a0e2-2157bde9762c.png" height="50px" width="150px"  alt="Logo">
+                </a>
+                
+             
+            </div>
+            <div class="column">
+                <h5>SERVICES</h5>
+                <ul>
+                    <li><a href="#">Lab Test</a></li>
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">House Visit</a></li>
+                    <li><a href="#">Routine Checkup</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h5>ABOUT</h5>
+                <ul>
+                    <li><a href="#">Health Corner</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h5>CONTACT</h5>
+                <ul>
+                    <li>Bangalore, India</li>
+                    <li>(91) 8765768987</li>
+                    <li><a href="#">www.HealthSyncHub.com</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; Copyright Medical. All Rights Reserved</p>
+        </div>
+    </div>
+</footer>

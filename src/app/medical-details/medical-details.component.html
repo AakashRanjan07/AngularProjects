@@ -1,0 +1,64 @@
+
+<div class="product-card">
+  <img src="{{ ans.img }}" alt="" class="product-image">
+  <div class="product-details">
+    <h3 class="product-title">{{ ans.name }}</h3>
+    <p class="product-description">{{ ans.desc }}</p>
+    <div class="product-info">
+      <span class="product-price">Price: ${{ ans.price }}</span>
+      <button class="product-button" (click)="buy()">Proceed To Pay</button>
+    </div>
+  </div>
+</div>
+
+<div class="review-container">
+    <h1>Product Reviews</h1>
+    <div class="review-card">
+        <div class="rating">
+            ★★★★★
+        </div>
+        <p class="comment">"This product is amazing! Highly recommended."</p>
+        <p class="author">- John Doe</p>
+    </div>
+    <div class="review-card">
+        <div class="rating">
+            ★★★☆☆
+        </div>
+        <p class="comment">"Decent product, but could be improved."</p>
+        <p class="author">- Jane Smith</p>
+    </div>
+    <div class="review-card">
+        <div class="rating">
+            ★★☆☆☆
+        </div>
+        <p class="comment">"Not satisfied with the quality."</p>
+        <p class="author">- Robert Johnson</p>
+    </div>
+</div>
+
+
+<div class="product-container1">
+    <div class="product-card1">
+        <img width="100px" height="100px" src='https://cdn01.pharmeasy.in/dam/products_otc/Y73818/healthkart-calcium-tablets-for-men-women-with-vitamin-d3-for-complete-bone-health-joint-60-no-2-1709081187.jpg'
+        alt="Product 1">
+        <h3 class="product-title">Product 1</h3>
+        <p class="product-price1">$19.99</p>
+        <p class="product-description1">Pain reliever and fever reducer used for headaches and inflammation.</p>
+        <button >Add to Cart</button>
+    </div>
+    <div class="product-card1">
+        <img width="100px" height="100px" src='https://cdn01.pharmeasy.in/dam/products_otc/E85882/gnc-calcium-plus-with-magnesium-vitamin-d3-strengthens-bones-1000mg-per-serving-60-capsules-2-1670821436.jpg' alt="Product 2">
+        <h3 class="product-title1">Product 2</h3>
+        <p class="product-price1">$29.99</p>
+        <p class="product-description1"> Antihistamine for allergy symptoms like sneezing and runny nose.</p>
+        <button >Add to Cart</button>
+    </div>
+    <div class="product-card1">
+        <img width="100px" height="100px" src='https://cdn01.pharmeasy.in/dam/products_otc/Z63893/liveasy-wellness-antacid-mint-flavour-sugar-free-bottle-of-200ml-oral-liquid-2-1695207631.jpg' alt="Product 3">
+        <h3 class="product-title1">Product 3</h3>
+        <p class="product-price1">$24.99</p>
+        <p class="product-description1">Statin drug to lower cholesterol and reduce heart disease risk.</p>
+        <button >Add to Cart</button>
+    </div>
+    
+</div>

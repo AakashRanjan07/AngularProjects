@@ -1,0 +1,159 @@
+
+.navbar {
+   
+    padding: 10px 20px; 
+  }
+ 
+ 
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  
+  .card {
+    width: 300px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 5px; 
+  }
+  
+ 
+  .card-img-top {
+    height: 200px; 
+    display: block; 
+    margin: 1px auto; 
+  
+  }
+  
+ 
+  .card-body {
+    padding: 15px;
+  }
+  
+
+  .card-title {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+  }
+  
+  .card-text {
+    color: #333; 
+  }
+  
+
+  .btn-primary {
+    margin-bottom: 0%;
+    background-color: #007bff;
+    border-color: #007bff; 
+    color: #fff; 
+    padding: 8px 16px; 
+  }
+  
+ 
+  .btn-primary:hover {
+    background-color: #0069d9; 
+    border-color: #0069d9;
+  }
+
+ 
+  .navbar-nav .nav-link:hover {
+    color:cyan;
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+
+
+
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+
+.collapse .btn:hover{
+  background-color:red;
+  color: white;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 100%;
+  max-width: 250px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #666;
+}
+.product-list-title{
+  text-align: center;
+}
